@@ -1,6 +1,7 @@
 package com.ll.exam.chat;
 
 import com.ll.exam.Rq;
+import com.ll.exam.article.dto.ArticleDto;
 import com.ll.exam.chat.dto.ChatMessageDto;
 import com.ll.exam.chat.dto.ChatRoomDto;
 
@@ -213,5 +214,13 @@ public class ChatController {
         }
 
         rq.successJson(chatMessageDtos);
+    }
+
+    public void doWriteMessageAjax(Rq rq) {
+        // roomId 구하고
+        // body 구하고
+        // 등록
+
+        rq.successJson(null);
     }
 }
